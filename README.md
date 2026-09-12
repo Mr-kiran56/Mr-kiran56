@@ -1,6 +1,6 @@
 <!-- timestamp: 1789206202 -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mr-kiran56/Mr-kiran56/main/assets/terminal-card.svg?t=1789206202" alt="Kiran Punna - Neofetch Terminal Profile Card" width="100%">
+  <img src="assets/profile-card.svg?v=1789206458" alt="Kiran Punna - Neofetch Terminal Profile Card" width="100%">
 </p>
 
 <p align="center">
