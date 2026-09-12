@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-card.svg?v=1789206680" alt="Kiran Punna - Animated Neofetch Profile Card" width="100%">
+  <img src="assets/profile-card.svg?v=1789206680" alt="Kiran Punna - Terminal Profile Card" width="100%">
 </p>
 
 <p align="center">
@@ -23,12 +23,12 @@
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=39C5BB&center=true&vCenter=true&width=700&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;Software+Engineer+Intern+%40+IncuXai;Ex-AI%2FML+Intern+%40+Infosys+Springboard;1st+Place+ATP+Police+AI+Hackathon+Winner;B.Tech+CSE+(AI)+%40+AITS+Rajampet+(9.35+CGPA)" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=39C5BB&center=true&vCenter=true&width=700&lines=AI%2FML+Engineer+%26+Full-Stack+Developer;Software+Engineer+Intern+%40+IncuXai;Ex-AI%2FML+Intern+%40+Infosys+Springboard;1st+Place+ATP+Police+AI+Hackathon+Winner;B.Tech+CSE+(AI)+%40+AITS+Rajampet+(9.35+CGPA)" alt="Typing Header">
 </p>
 
 ---
 
-## ⚡ Terminal Summary & System Diagnostics
+## 👤 About Me
 
 ```sys
 [sys@kiran ~]$ whoami
@@ -48,38 +48,19 @@ B.Tech in Computer Science & Engineering (Artificial Intelligence) @ AITS Rajamp
            └─ 303 /usr/bin/rag-pipeline --sentence-bert --chromadb --graphrag
 ```
 
----
+I am an **AI/ML Engineer and Full-Stack Developer** focused on engineering real-time, high-concurrency backend microservices, autonomous multi-agent systems, and explainable AI healthcare applications.
 
-## 👤 Executive Overview
-
-I am an **AI/ML Engineer and Full-Stack Developer** specializing in real-time, high-throughput backend microservices, autonomous multi-agent systems, and explainable AI healthcare applications.
-
-<table>
-  <tr>
-    <td width="50%" fill="#0d1117">
-      <h3>🚀 Core Highlights</h3>
-      <ul>
-        <li><b>Current Experience:</b> Engineering real-time web & mobile GovTech systems for officer tracking at <b>IncuXai</b>.</li>
-        <li><b>AI/ML Focus:</b> RAG & GraphRAG pipelines, LangGraph multi-agent workflows, zero-trust HITL controls.</li>
-        <li><b>Academic CGPA:</b> <b>9.35 / 10.0</b> at <b>AITS Rajampet</b> (B.Tech CSE - AI).</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <h3>🏆 Accolades & Research</h3>
-      <ul>
-        <li><b>1st Place Winner:</b> ATP Police AI Hackathon (Smart Bandobast System).</li>
-        <li><b>Top 98.5 Percentile:</b> Naukri Campus Young Turks Competition.</li>
-        <li><b>Research Paper:</b> <i>"An Intelligent Cloud Resource and Cost Optimization Framework using Machine Learning and Explainable AI"</i> (Accepted 2027).</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+* 🔭 **Current Experience:** Engineering real-time web & mobile GovTech systems for officer tracking & deployment at **IncuXai**.
+* 🤖 **AI/ML Specialization:** Developing end-to-end RAG/GraphRAG pipelines, LangGraph multi-agent workflows with zero-trust HITL safety controls, and multimodal medical diagnostic engines.
+* 🎓 **Academic Excellence:** Pursuing B.Tech in CSE (Artificial Intelligence) at **Annamacharya Institute of Technology & Sciences (AITS), Rajampet** with a **9.35 CGPA**.
+* 🏆 **Hackathon Winner:** Secured **1st Place at the ATP Police AI Hackathon** for engineering a real-time Smart Bandobast Monitoring System for public safety and crowd management.
+* 📄 **Research:** Author of *"An Intelligent Cloud Resource and Cost Optimization Framework using Machine Learning and Explainable AI"* (Accepted for publication in 2027).
 
 ---
 
-## 🛠️ 3D Tech Stack & Skill Matrix
+## 🛠️ Technical Skills & Competencies
 
-### 💻 Programming Languages & Web Development
+### 💻 Languages & Web Development
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
@@ -102,7 +83,7 @@ I am an **AI/ML Engineer and Full-Stack Developer** specializing in real-time, h
   <img src="https://img.shields.io/badge/Sentence--BERT-4B0082?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
-### 🗄️ Databases, Cloud & DevOps
+### 🗄️ Databases, Vector DBs & DevOps
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
@@ -122,69 +103,69 @@ I am an **AI/ML Engineer and Full-Stack Developer** specializing in real-time, h
 ### 🛡️ [DutyGuard — Real-Time GovTech Command & Control Platform](https://github.com/Mr-kiran56)
 > **High-Throughput Async Police Deployment & Officer Safety Monitoring System**
 
-```term
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│ [High-Throughput GPS Ingest Pipeline]                                           │
-│ 7,000+ Officers ---> [Capacitor Offline Sync] ---> [FastAPI Ingestion (~700 RPS)]│
-│                                                          │                      │
-│                ┌─────────────────────────────────────────┴───────────┐          │
-│                │                                                     │          │
-│        [Redis Deduplication]                                 [PostGIS Spatial]  │
-│                │                                                     │          │
-│                └─────────────────────────────────────────┬───────────┘          │
-│                                                          │                      │
-│                                           [Batched WebSocket Broadcast]         │
-│                                                          │                      │
-│                                            [Supervisor Dashboard UI]            │
-└─────────────────────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="assets/dutyguard-architecture.svg?v=1" alt="DutyGuard System Architecture Diagram" width="100%">
+</p>
 
-* ⚡ **High-Throughput GPS Pipeline:** Built async GPS ingestion handling **~700 RPS** tracking **7,000+ officers** in real time with PostGIS geofencing, Redis dedup, and WebSocket fan-out.
-* 🚨 **Cascade SOS Escalation:** Engineered a **4-level SOS escalation cascade** via recursive CTEs, offline-first Capacitor app with IndexedDB sync, and 6-role RBAC.
-* 🛠️ **Tech Stack:** `Python` `FastAPI` `React.js` `PostgreSQL` `PostGIS` `Redis` `WebSockets` `Firebase FCM` `Capacitor`
+* ⚡ **High-Throughput GPS Pipeline:** Engineered an asynchronous GPS ingestion pipeline handling **~700 RPS** tracking **7,000+ officers** in real time using PostGIS geofencing, Redis deduplication, and WebSocket fan-out to supervisor dashboards.
+* 🚨 **Cascade SOS Escalation:** Built a **4-level SOS escalation cascade** via recursive CTEs, an offline-first Capacitor mobile application with IndexedDB sync, and 6-role RBAC across police command hierarchies.
+* 🛠️ **Technologies Used:** `Python` • `FastAPI` • `React.js` • `PostgreSQL` • `PostGIS` • `Redis` • `WebSockets` • `Firebase FCM` • `Capacitor` • `IndexedDB`
 
 ---
 
 ### 🩺 [MediNutriAI — AI-Powered Healthcare Assistant](https://github.com/Mr-kiran56)
-> **Multimodal Clinical Diagnostics & Explainable Diet Recommendation Engine**
+> **Multimodal Clinical Diagnostics & Explainable Diet Recommendation System**
 
-* 📄 **Multimodal Clinical RAG:** Engineered an end-to-end healthcare system using FastAPI, React, Tesseract OCR, and RAG (LangChain, Sentence-BERT) to analyze medical reports and deliver clinical insights.
-* 🥗 **ML Risk Prediction & Personalization:** Developed machine learning risk prediction models with Scikit-learn and automated personalized Indian diet plans based on patient diagnostics.
-* 🛠️ **Tech Stack:** `Python` `FastAPI` `React.js` `OCR` `Scikit-learn` `Sentence-BERT` `LangChain` `RAG`
-
----
-
-### ⚡ [SystemPilot AI — Enterprise Autonomous OS Governance Platform](https://github.com/Mr-kiran56)
-> **Multi-Agent Orchestration & Fail-Safe Workspace Intelligence Engine**
-
-* 🤖 **Multi-Agent Orchestration:** Engineered an enterprise OS governance platform leveraging **LangGraph**, zero-trust Human-In-The-Loop (HITL) safety controls, and Saga transaction rollbacks for secure workflow execution.
-* 🔍 **Hybrid GraphRAG & Telemetry:** Built a hybrid GraphRAG search engine and workspace telemetry engine utilizing ChromaDB, WebSockets/SSE streaming, and **FB Prophet** for predictive analytics.
-* 🛠️ **Tech Stack:** `Python` `FastAPI` `React.js` `LangGraph` `ChromaDB` `PostgreSQL` `GraphRAG` `FB Prophet` `WebSockets` `SSE`
+* 📄 **Multimodal Clinical RAG:** Engineered an end-to-end healthcare system using FastAPI, React, Tesseract OCR, and RAG (LangChain, Sentence-BERT) to analyze medical reports and deliver explainable clinical insights.
+* 🥗 **ML Risk Prediction & Personalization:** Developed machine learning risk prediction models using Scikit-learn and automated the generation of personalized Indian diet plans based on patient diagnostic reports.
+* 🛠️ **Technologies Used:** `Python` • `FastAPI` • `React.js` • `OCR` • `Scikit-learn` • `Sentence-BERT` • `LangChain` • `RAG`
 
 ---
 
-## 💼 Professional Experience & Education
+### ⚡ [SystemPilot AI — Enterprise Autonomous OS Governance & AI Workspace](https://github.com/Mr-kiran56)
+> **Multi-Agent Orchestration & Fail-Safe OS Workspace Intelligence Platform**
+
+* 🤖 **Multi-Agent Orchestration:** Engineered an enterprise OS governance platform leveraging **LangGraph**, zero-trust Human-In-The-Loop (HITL) safety controls, and Saga transaction rollbacks to guarantee secure, fail-safe workflow execution.
+* 🔍 **Hybrid GraphRAG & Telemetry:** Built a hybrid GraphRAG search engine and workspace telemetry engine utilizing ChromaDB, real-time WebSockets/SSE streaming, and **FB Prophet** for predictive system analytics.
+* 🛠️ **Technologies Used:** `Python` • `FastAPI` • `React.js` • `LangGraph` • `ChromaDB` • `PostgreSQL` • `GraphRAG` • `FB Prophet` • `WebSockets` • `SSE`
+
+---
+
+## 💼 Professional Experience
 
 ```term
-┌── 🏢 [IncuXai] Software Engineer Intern (Mar 2026 – May 2026)
-│   ├── Engineered real-time web & mobile GovTech systems for officer tracking & deployment.
-│   └── Integrated FastAPI, React, WebSockets, PostgreSQL/PostGIS, Redis & Firebase FCM into production.
+┌── 🏢 [IncuXai] — Software Engineer Intern
+│   ├── Period: Mar 2026 – May 2026
+│   ├── Engineered real-time web & mobile GovTech systems for police deployment and officer monitoring.
+│   └── Integrated FastAPI, React, WebSockets, PostgreSQL/PostGIS, Redis, and Firebase FCM into production.
 │
-├── 🏢 [Infosys Springboard] AI/ML Intern (Nov 2025 – Feb 2026)
-│   ├── Developed AI medical risk prediction system using OCR, BERT, RAG pipelines & AI Doctor LLM.
-│   └── Implemented MLOps workflows using DVC, GitHub Actions CI/CD, and AWS deployment.
+├── 🏢 [Infosys Springboard] — AI/ML Intern
+│   ├── Period: Nov 2025 – Feb 2026
+│   ├── Developed AI medical risk prediction system using OCR, BERT, RAG pipelines, and AI Doctor LLM.
+│   └── Implemented MLOps workflows using DVC and GitHub Actions CI/CD, deploying scalable AI/ML applications on AWS.
 │
-├── 🌐 [Google Student Ambassador] Campus Community Lead (2026)
-│   └── Organized AI & product development workshops promoting Google AI tools & developer tech.
-│
-└── 🎓 [AITS Rajampet] B.Tech CSE (Artificial Intelligence) (2023 – Present)
-    ├── CGPA: 9.35 / 10.0
-    └── Accepted Research Paper: "An Intelligent Cloud Resource and Cost Optimization Framework using Machine Learning and Explainable AI" (2027).
+└── 🌐 [Google Student Ambassador] — Campus Lead
+    ├── Period: 2026
+    └── Organized AI and product development events, promoted Google AI tools, and conducted campus workshops.
 ```
 
 ---
 
-## 🏆 Certifications & Achievements
+## 🎓 Education & Publications
+
+### 📜 **Bachelor of Technology (B.Tech) — Computer Science & Engineering (Artificial Intelligence)**
+* **Institution:** Annamacharya Institute of Technology & Sciences (AITS) — Rajampet, Andhra Pradesh
+* **Timeline:** 2023 – Present
+* **CGPA:** **9.35 / 10.0**
+* **Relevant Coursework:** Data Structures & Algorithms, Object-Oriented Programming, DBMS, Operating Systems, Machine Learning, Artificial Intelligence, Deep Learning, Natural Language Processing.
+
+### 📄 **Research & Publications**
+* **Paper Title:** *"An Intelligent Cloud Resource and Cost Optimization Framework using Machine Learning and Explainable AI"*
+* **Status:** Accepted for publication in 2027.
+
+---
+
+## 🏆 Certifications & Honors
 
 <table>
   <tr>
@@ -213,7 +194,7 @@ I am an **AI/ML Engineer and Full-Stack Developer** specializing in real-time, h
 
 ---
 
-## 📊 Live GitHub Activity & Metrics
+## 📊 GitHub Statistics & Metrics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Mr-kiran56&show_icons=true&theme=tokyonight&hide_border=true&title_color=39c5bb&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="48%">
@@ -226,7 +207,7 @@ I am an **AI/ML Engineer and Full-Stack Developer** specializing in real-time, h
 
 ---
 
-## 📫 Connect With Me
+## 📫 Connect & Contact
 
 <p align="center">
   <a href="https://linkedin.com/in/kiran-punna-b50774330">
@@ -247,5 +228,5 @@ I am an **AI/ML Engineer and Full-Stack Developer** specializing in real-time, h
 </p>
 
 <p align="center">
-  <sub>Designed with 💻 &amp; ☕ for <b>Kiran Punna</b> | 3D Animated Terminal Theme Profile</sub>
+  <sub>Designed with 💻 &amp; ☕ for <b>Kiran Punna</b> | Professional Terminal Theme Profile</sub>
 </p>

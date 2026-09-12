@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320">
+<defs>
+<linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0d1117"/>
+<stop offset="100%" stop-color="#161b22"/>
+</linearGradient>
+<linearGradient id="node-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#1f6feb"/>
+<stop offset="100%" stop-color="#388bfd"/>
+</linearGradient>
+<linearGradient id="node-teal" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#238636"/>
+<stop offset="100%" stop-color="#2ea043"/>
+</linearGradient>
+<linearGradient id="node-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#d29922"/>
+<stop offset="100%" stop-color="#e3b341"/>
+</linearGradient>
+<marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 1 L 10 5 L 0 9 z" fill="#58a6ff"/>
+</marker>
+</defs>
+<rect width="880" height="320" rx="10" fill="url(#bg-grad)" stroke="#30363d" stroke-width="1.5"/>
+<text x="30" y="38" font-family="ui-monospace, Consolas, monospace" font-size="14" font-weight="bold" fill="#ffffff">DutyGuard System Architecture</text>
+<text x="30" y="58" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8b949e">High-Throughput Real-Time Police Deployment &amp; Officer Safety Ingestion Pipeline</text>
+<line x1="30" y1="70" x2="850" y2="70" stroke="#21262d" stroke-width="1"/>
+<rect x="30" y="95" width="230" height="70" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+<text x="45" y="123" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="bold" fill="#ffffff">7,000+ Field Officers</text>
+<text x="45" y="145" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8b949e">Capacitor App (IndexedDB Sync)</text>
+<line x1="260" y1="130" x2="310" y2="130" stroke="#58a6ff" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="315" y="95" width="240" height="70" rx="8" fill="#161b22" stroke="#39c5bb" stroke-width="1.5"/>
+<text x="330" y="123" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="bold" fill="#7ee787">FastAPI Async Pipeline</text>
+<text x="330" y="145" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8b949e">~700 RPS Ingestion Capacity</text>
+<line x1="555" y1="130" x2="605" y2="130" stroke="#58a6ff" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="610" y="95" width="240" height="70" rx="8" fill="#161b22" stroke="#e3b341" stroke-width="1.5"/>
+<text x="625" y="123" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="bold" fill="#e3b341">PostGIS &amp; Redis Engine</text>
+<text x="625" y="145" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8b949e">Spatial Geofencing &amp; Dedup</text>
+<line x1="730" y1="165" x2="730" y2="205" stroke="#58a6ff" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="470" y="210" width="380" height="70" rx="8" fill="#161b22" stroke="#bc8cff" stroke-width="1.5"/>
+<text x="490" y="238" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="bold" fill="#bc8cff">Batched WebSocket &amp; FCM Broadcast</text>
+<text x="490" y="260" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8b949e">4-Level SOS Escalation Cascade via Recursive CTEs</text>
+<line x1="470" y1="245" x2="270" y2="245" stroke="#58a6ff" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="30" y="210" width="230" height="70" rx="8" fill="#161b22" stroke="#f2994a" stroke-width="1.5"/>
+<text x="45" y="238" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="bold" fill="#f2994a">Supervisor Dashboards</text>
+<text x="45" y="260" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#8b949e">6-Role RBAC Command Control</text>
+</svg>
