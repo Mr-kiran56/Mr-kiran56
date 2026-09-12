@@ -1,6 +1,6 @@
-<!-- timestamp: 1789206202 -->
+<!-- timestamp: 1789206680 -->
 <p align="center">
-  <img src="assets/profile-card.svg?v=1789206458" alt="Kiran Punna - Neofetch Terminal Profile Card" width="100%">
+  <img src="assets/profile-card.svg?v=1789206680" alt="Kiran Punna - Neofetch Terminal Profile Card" width="100%">
 </p>
 
 <p align="center">
